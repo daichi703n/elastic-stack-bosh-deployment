@@ -1,0 +1,3 @@
+- type: replace
+  path: /instance_groups/name=kibana/jobs/name=kibana/properties/xpack?/infra?/sources?/default?/logAlias?
+  value: logstash-*
